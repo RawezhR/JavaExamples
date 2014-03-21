@@ -1,0 +1,1 @@
+This program is a sandbox for trying out Java Swing components. It features a button and a label. When the button is pressed, the label is updated. There is a listener to capture the window closing event, as well as the button press event.
