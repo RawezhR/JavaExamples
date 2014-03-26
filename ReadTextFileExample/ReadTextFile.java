@@ -1,4 +1,5 @@
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -16,6 +17,13 @@ public class ReadTextFile {
 
         String fileFullPath = "C:\\Temp\\data.txt";
 
+        /** verify that file exists */
+        File checkFile = new File(fileFullPath);
+        if (!checkFile.exists()) {
+            System.err.println("error - file does not exist");
+            System.exit(0);
+        }        
+        
         BufferedReader br = null;
         try {
             String line;
