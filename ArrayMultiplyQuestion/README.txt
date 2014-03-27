@@ -1,0 +1,3 @@
+This program is in response to an actual programming interview question. Given an array of integers, return a new array whose elements are the product of every other integer except the one at the current index. For example, given an input array: [4,2,3,1], the corresponding output array would be: [2*3*1,4*3*1,4*2*1,4*2*3] or [6,12,8,24].
+
+One algorithm to solve this is to compute the full product, walk the array, and divide the full product by the current element.
