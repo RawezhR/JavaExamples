@@ -90,6 +90,8 @@ public class DecoderRing {
 		
 		DecoderRing dr = new DecoderRing();
 		
+		System.out.println(dr.decode("pbqrarjovrf ner gur zbfg fhccbegvir pbzzhavgl")); //codenewbies are the most supportive community
+		
 		String s1 = dr.encode("no one can read this secret message");
 		String s2 = dr.encode("it is so super secret");
 		String s3 = dr.encode("only a CodeNewbie can figure it out");
@@ -97,7 +99,7 @@ public class DecoderRing {
 		System.out.println(dr.decode(s2));
 		System.out.println(dr.decode(s3));
 		
-		dr = new DecoderRing(17);
+		dr = new DecoderRing(17); //supports ROT1 - ROT25
 		s1 = dr.encode("no one can read this secret message");
 		s2 = dr.encode("it is so super secret");
 		s3 = dr.encode("only a CodeNewbie can figure it out");
