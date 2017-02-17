@@ -1,4 +1,3 @@
-JavaExamples
-============
+# JavaExamples
 
-Various Java code samples, tutorials, etc.
+### Various Java code samples, tutorials, etc.
