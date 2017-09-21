@@ -1,3 +1,0 @@
-This simple example demonstrates how to use a Comparator to define a custom sort order. This program sorts an ArrayList of String objects. Each String object starts with a number and a space. The list is sorted by those numbers in ascending order.
-
-For example, the following list:  "10 miles", "100 miles", "30 miles", "10 miles", "4 miles" would be sorted in this order: "4 miles", "10 miles", "10 miles", "30 miles", "100 miles"

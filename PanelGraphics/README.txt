@@ -1,1 +1,0 @@
-This is a simple example that shows how to use the Graphics object to draw text on a JPanel.

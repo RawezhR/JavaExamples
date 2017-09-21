@@ -1,3 +1,5 @@
+package Target;
+
 import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -10,7 +12,6 @@ import javafx.stage.WindowEvent;
 
 /**
  * This JavaFX program draws a target.
- * @author ERTORRES
  */
 public class Target extends Application {
 

@@ -1,1 +1,0 @@
-The FactorialMemory class illustrates how to calculate the factorial value recursively. This is a classic example of recursion in computer science. However, this factorial method saves previously learned values. For example, if 10! is computed, then a subsequent call to 7! is a simple lookup.
